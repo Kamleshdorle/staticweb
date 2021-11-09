@@ -1,0 +1,132 @@
+.content_white {
+    text-align: center;
+    position: relative;
+    top: 30px;
+    margin-bottom: -65px;
+    margin-top: 30px;
+}
+.featured_content {
+    background: #f6f6f6;
+    width: 100%;
+    padding: 30px 0;
+    position: relative;
+   
+}
+.navbar-default .navbar-nav>.active>a, .navbar-default .navbar-nav>.active>a:hover, .navbar-default .navbar-nav>.active>a:focus {
+    color: #14fee3;
+    /* background: #52C2AD; */
+    /* border: 1px solid #3AA994 !important; */
+}
+.whitebox
+{
+    background-image: url("../images/cmp-info-bg-image.jpg");
+    opacity: 1.0;
+    position: relative;
+    top: -65px;
+}
+header .navbar-nav > li  {
+    padding-bottom: 12px;
+    padding-top: 12px;
+	padding-left: 20px;
+}
+header ul.nav li a {	
+	font-size:20px;
+	border:none;
+	font-weight:700;
+	text-transform:uppercase;
+}
+
+.productimage {
+    padding: 20px;
+    border: 1px solid #14fee3;
+    box-shadow: 2px 0px 10px #808080c4;
+    width: 350px;
+    margin-left: 30px;
+    margin-bottom: 30px;
+}
+.productimage img {
+    width: 280px;
+    height: 280px;
+}
+
+.logo {
+    width:166px;
+    position: absolute;
+    top: -38px;
+}
+.heading
+{
+    font-size: 30px;
+}
+.paradetails
+{
+    margin: 0 0 10px;
+    text-align: center;
+    padding: 20px;
+    color: #000;
+    font-weight: bold;
+}
+header .navbar {
+    min-height: 98px;
+    padding: 43px 0px 25px 0px;
+    background-color: #243128;
+}
+header .navbar-collapse ul.navbar-nav {
+    float: right;
+    margin-right: 0px;
+    position: relative;
+    top: 0px;
+}
+.logotext
+{
+    width: 270px;
+    position: relative;
+    left: 160px;
+}
+@media only screen and (max-width: 600px) {
+    .logo {
+        width: 130px;
+        position: absolute;
+        top: -38px;
+    }
+    .navbar-default .navbar-toggle:hover, .navbar-default .navbar-toggle:focus {
+        background-color: #14fee3;
+    }
+    .navbar-default .navbar-toggle {
+        border-color: #000;
+    }
+    .navbar-nav {
+        border-top: none;
+        float: none;
+        width: 100%;
+        text-align: right;
+    }
+    header .navbar-nav > li {
+       padding: 0px;
+    }
+    .navbar-default .navbar-nav>li>a {
+        color: #777;
+        font-size: 14px;
+    }
+    #productList {
+        position: relative;
+        text-align: center;
+    }
+    .productimage {
+        padding: 20px;
+        border: 1px solid #14fee3;
+        box-shadow: 2px 0px 10px #808080c4;
+        margin-top: 20px;
+        margin-left:0px;
+        width: 100%;
+    }
+    .heading
+{
+    font-size: 24px;
+}
+#sub-footer ul.social-network {
+    float: left;
+    position: relative;
+    left: -13%;
+}
+  }
