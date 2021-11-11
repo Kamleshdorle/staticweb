@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
 	<meta charset="utf-8">
 	<title>Shuddha Ayurveda</title>
@@ -16,48 +17,55 @@
 	<link href="css/custom.css" rel="stylesheet" />
 	<link href="images/logo.jpeg" rel="shortcut icon" type="image/x-icon" />
 </head>
+
 <body>
 	<div id="wrapper">
 		<!-- start header -->
 		<header>
-			<div class="navbar navbar-default navbar-static-top">
+			<div class="navbar navbar-default navbar-static-top headimage">
 				<div class="container ">
-					<div class="navbar-header">
+					<div class="navbar-header col-md-4 ">
 						<button type="button" class="navbar-toggle" data-toggle="collapse"
 							data-target=".navbar-collapse">
 							<span class="icon-bar"></span>
 							<span class="icon-bar"></span>
 							<span class="icon-bar"></span>
 						</button>
-						<a class="navbar-brand " href="index.html"><img src="images/new_logo.png" alt="logo"
+						<a class="navbar-brand " href="index.html"><img src="images/logo-latest.jpeg" alt="logo"
 								class="logo" /></a>
 					</div>
-				</div>
-				<div class="container">
-					<div class="navbar-collapse collapse ">
+					<div class="col-md-4 headbanner"> 
+						<img src="images/banner.jpeg" alt="logo" width="120px" class="boxeffect"/>
+					</div>
+					<div class="navbar-collapse collapse col-md-4  menubar">
 						<ul class="nav navbar-nav">
 							<li class="active"><a href="index.html">Home</a></li>
-							<li><a href="#">About Us</a></li>
+							<li><a href="about.html">About Us</a></li>
 							<li><a href="#">Contact</a></li>
 						</ul>
 					</div>
 				</div>
+				
 			</div>
 		</header>
 		<!-- end header -->
-		<section class="whitebox">
+		<section class="hero">
 			<div class="container content_white">
-				<div >
+				<div>
 					<h2 class="heading">Welcome to our Company Website!</h2>
-					<p class="paradetails">Shuddha Ayurveda is established with a vision to enhance the quality of life by making ayurvedic and herbal healthcare products easily available. Our mission is to create an Ayurvedic Ecosystem, to access ancient Indian tradition on Ayurveda for a common man and provide solution for all health problems through Ayurveda. We firmly believe that the customer is of paramount importance and therefore we place customer satisfaction as our supreme priority. At Shuddha Ayurveda, we stay true to tradition and manufacture products using handpicked ingredients sourced directly from select farms across the country, every product you buy is free of chemicals and examined through our strict quality control processes. You can be sure that our products are a source of vitality, health, and wellness. Our motto is "God's Own Cure" and delivering you 100% quality products is our utmost priority.</p>
+					<p class="paradetails">Shuddha Ayurveda is established with a vision to enhance the quality of life
+						by making ayurvedic and herbal healthcare products easily available. Our mission is to create an
+						Ayurvedic Ecosystem, to access ancient Indian tradition on Ayurveda for a common man and provide
+						solution for all health problems through Ayurveda.</p>
+					<a href="about.html" class="feature_btn">Read More</a>
 				</div>
 			</div>
-		</section> 
-	
-	 <div class="featured_content">
+		</section>
+
+		<div class="featured_content">
 			<div class="container">
 				<div class="row text-center" id="productList">
-<!-- 
+					<!-- 
 					<div class="col-md-3 feature_grid1 productimage">
 						<img src="images/1.jpeg">
 						<h3><a href="#">Serspiciatis</a></h3>
@@ -84,28 +92,47 @@
 					</div> -->
 
 				</div>
+				<!-- Modal -->
+				<div class="modal fade" id="descModal" tabindex="-1" role="dialog"
+					aria-labelledby="exampleModalLongTitle" aria-hidden="true">
+					<div class="modal-dialog" role="document">
+						<div class="modal-content">
+							<div class="modal-header">
+								<h5 class="modal-title" id="exampleModalLongTitle">Product Description
+								<button type="button" class="close" data-dismiss="modal" aria-label="Close">
+									<span aria-hidden="true">&times;</span>
+								</button></h5>
+							</div>
+							<div class="modal-body" id="modalbody">
+							</div>
+							<div class="modal-footer">
+								<button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+							</div>
+						</div>
+					</div>
+				</div>
 			</div>
 		</div>
-	
 		<section id="content">
-
-
 			<div class="container">
-
 				<div class="row">
 					<div class="col-md-8">
 						<!-- Heading and para -->
 						<div class="block-heading-two">
 							<h3><span>Why Choose Us?</span></h3>
 						</div>
-						<p>Lorem ipsum dolor sit amet, unde omnis iste natus tote natus error sit voluptatem accusanti quas
+						<p>Lorem ipsum dolor sit amet, unde omnis iste natus tote natus error sit voluptatem accusanti
+							quas
 							potenti
-							maltam rem aperiam, eaque ipsa quae ab illitecto <br />beatae vitae dicemo enim ipsam voluptatem
+							maltam rem aperiam, eaque ipsa quae ab illitecto <br />beatae vitae dicemo enim ipsam
+							voluptatem
 							quia
 							voluptas sit aspernatur.</p>
-						<p>Lorem ipsum dolor sit amet, unde omnis iste natus tote natus error sit voluptatem accusanti quas
+						<p>Lorem ipsum dolor sit amet, unde omnis iste natus tote natus error sit voluptatem accusanti
+							quas
 							potenti
-							maltam rem aperiam, eaque ipsa quae ab illitecto <br />beatae vitae dicemo enim ipsam voluptatem
+							maltam rem aperiam, eaque ipsa quae ab illitecto <br />beatae vitae dicemo enim ipsam
+							voluptatem
 							quia
 							voluptas sit aspernatur.</p>
 					</div>
@@ -129,11 +156,13 @@
 								<div id="collapseOne-alt3" class="panel-collapse collapse">
 									<!-- Panel body -->
 									<div class="panel-body">
-										Lorem ipsum dolor sit amet, unde omnis iste natus tote natus error sit voluptatem accusanti quas
-						potenti
-						maltam rem aperiam, eaque ipsa quae ab illitecto <br />beatae vitae dicemo enim ipsam voluptatem
-						quia
-						voluptas sit aspernatur.
+										Lorem ipsum dolor sit amet, unde omnis iste natus tote natus error sit
+										voluptatem accusanti quas
+										potenti
+										maltam rem aperiam, eaque ipsa quae ab illitecto <br />beatae vitae dicemo enim
+										ipsam voluptatem
+										quia
+										voluptas sit aspernatur.
 									</div>
 								</div>
 							</div>
@@ -148,11 +177,13 @@
 								</div>
 								<div id="collapseTwo-alt3" class="panel-collapse collapse">
 									<div class="panel-body">
-										Lorem ipsum dolor sit amet, unde omnis iste natus tote natus error sit voluptatem accusanti quas
-						potenti
-						maltam rem aperiam, eaque ipsa quae ab illitecto <br />beatae vitae dicemo enim ipsam voluptatem
-						quia
-						voluptas sit aspernatur.
+										Lorem ipsum dolor sit amet, unde omnis iste natus tote natus error sit
+										voluptatem accusanti quas
+										potenti
+										maltam rem aperiam, eaque ipsa quae ab illitecto <br />beatae vitae dicemo enim
+										ipsam voluptatem
+										quia
+										voluptas sit aspernatur.
 									</div>
 								</div>
 							</div>
@@ -167,11 +198,13 @@
 								</div>
 								<div id="collapseThree-alt3" class="panel-collapse collapse">
 									<div class="panel-body">
-										Lorem ipsum dolor sit amet, unde omnis iste natus tote natus error sit voluptatem accusanti quas
-						potenti
-						maltam rem aperiam, eaque ipsa quae ab illitecto <br />beatae vitae dicemo enim ipsam voluptatem
-						quia
-						voluptas sit aspernatur.
+										Lorem ipsum dolor sit amet, unde omnis iste natus tote natus error sit
+										voluptatem accusanti quas
+										potenti
+										maltam rem aperiam, eaque ipsa quae ab illitecto <br />beatae vitae dicemo enim
+										ipsam voluptatem
+										quia
+										voluptas sit aspernatur.
 									</div>
 								</div>
 							</div>
@@ -186,29 +219,22 @@
 								</div>
 								<div id="collapseFour-alt3" class="panel-collapse collapse">
 									<div class="panel-body">
-										Lorem ipsum dolor sit amet, unde omnis iste natus tote natus error sit voluptatem accusanti quas
-						potenti
-						maltam rem aperiam, eaque ipsa quae ab illitecto <br />beatae vitae dicemo enim ipsam voluptatem
-						quia
-						voluptas sit aspernatur.
+										Lorem ipsum dolor sit amet, unde omnis iste natus tote natus error sit
+										voluptatem accusanti quas
+										potenti
+										maltam rem aperiam, eaque ipsa quae ab illitecto <br />beatae vitae dicemo enim
+										ipsam voluptatem
+										quia
+										voluptas sit aspernatur.
 									</div>
 								</div>
 							</div>
 						</div>
 						<!-- Accordion ends -->
-
 					</div>
-
-
-
 				</div>
-
-
 			</div>
-
 		</section>
-
-		
 		<div class="testimonial-area">
 			<div class="testimonial-solid">
 				<div class="container">
@@ -229,9 +255,11 @@
 						</ol>
 						<div class="carousel-inner">
 							<div class="item">
-								<p>Lorem ipsum dolor sit amet, unde omnis iste natus tote natus error sit voluptatem accusanti quas
+								<p>Lorem ipsum dolor sit amet, unde omnis iste natus tote natus error sit voluptatem
+									accusanti quas
 									potenti
-									maltam rem aperiam, eaque ipsa quae ab illitecto <br />beatae vitae dicemo enim ipsam voluptatem
+									maltam rem aperiam, eaque ipsa quae ab illitecto <br />beatae vitae dicemo enim
+									ipsam voluptatem
 									quia
 									voluptas sit aspernatur.</p>
 								<p>
@@ -239,9 +267,11 @@
 								</p>
 							</div>
 							<div class="item">
-								<p>Lorem ipsum dolor sit amet, unde omnis iste natus tote natus error sit voluptatem accusanti quas
+								<p>Lorem ipsum dolor sit amet, unde omnis iste natus tote natus error sit voluptatem
+									accusanti quas
 									potenti
-									maltam rem aperiam, eaque ipsa quae ab illitecto <br />beatae vitae dicemo enim ipsam voluptatem
+									maltam rem aperiam, eaque ipsa quae ab illitecto <br />beatae vitae dicemo enim
+									ipsam voluptatem
 									quia
 									voluptas sit aspernatur.</p>
 								<p>
@@ -249,9 +279,11 @@
 								</p>
 							</div>
 							<div class="item active">
-								<p>Lorem ipsum dolor sit amet, unde omnis iste natus tote natus error sit voluptatem accusanti quas
+								<p>Lorem ipsum dolor sit amet, unde omnis iste natus tote natus error sit voluptatem
+									accusanti quas
 									potenti
-									maltam rem aperiam, eaque ipsa quae ab illitecto <br />beatae vitae dicemo enim ipsam voluptatem
+									maltam rem aperiam, eaque ipsa quae ab illitecto <br />beatae vitae dicemo enim
+									ipsam voluptatem
 									quia
 									voluptas sit aspernatur.</p>
 								<p>
@@ -259,9 +291,11 @@
 								</p>
 							</div>
 							<div class="item">
-								<p>Lorem ipsum dolor sit amet, unde omnis iste natus tote natus error sit voluptatem accusanti quas
+								<p>Lorem ipsum dolor sit amet, unde omnis iste natus tote natus error sit voluptatem
+									accusanti quas
 									potenti
-									maltam rem aperiam, eaque ipsa quae ab illitecto <br />beatae vitae dicemo enim ipsam voluptatem
+									maltam rem aperiam, eaque ipsa quae ab illitecto <br />beatae vitae dicemo enim
+									ipsam voluptatem
 									quia
 									voluptas sit aspernatur.</p>
 								<p>
@@ -369,6 +403,28 @@
 	<script src="js/custom.js"></script>
 	<script src="js/owl-carousel/owl.carousel.js"></script>
 	<script src="js/site.js"></script>
+	<script>
+		$(document).on("ready", function () {
+			console.log("Data");
+			$("body").on("click", ".btnmore", function (e) {
+				var id = e.currentTarget.id;
+				$.getJSON("js/product.json", function () {
+					console.log("success");
+				})
+				.done(function (data) {
+					var product = data.products.filter(c => c.id == id);
+					$("#modalbody").html(product[0].description);
+					$("#descModal").modal('show');
+					console.log("second success");
+				})
+				.fail(function () {
+					console.log("error");
+				})
+				.always(function () {
+					console.log("complete");
+				});
+			});
+		});
+	</script>
 </body>
-
 </html>
