@@ -20,11 +20,14 @@
   
   
   header ul.nav li a {
-    font-size: 20px;
+    font-size: 14px;
     border: none;
-    font-weight: 700;
+    font-weight: 200;
     text-transform: uppercase;
-  }
+    position: relative;
+    right: 0px;
+    top: 5px;
+}
   
   .productimage {
     padding: 20px;
@@ -46,14 +49,14 @@
   .logo {
     width: 160px;
     position: absolute;
-    top: -22px;
-    border-radius: 5px;
+    top: -30px;
+
   }
   .heading {
     font-size: 30px;
   }
   .paradetails {
-    margin: 0 0 10px;
+    margin: -25px 0 -10px;
     text-align: center;
     padding: 20px;
     color: #000;
@@ -62,13 +65,13 @@
   header .navbar {
     min-height: 98px;
     padding: 30px 0px 0px 0px;
-    background-color: #ffffff;
-  }
+    background-color: #355e1c;
+}
   header .navbar-collapse ul.navbar-nav {
     float: right;
     margin-right: 0px;
     position: relative;
-    top: 36px;
+    top: 55px;
   }
   .logotext {
     width: 270px;
@@ -77,9 +80,12 @@
   }
   .headbanner {
     position: absolute;
-    top: -30px;
-    left: 45%;
-  }
+    top: 61px;
+    left: 20%;
+    font-size: 30px;
+    color: #fff;
+    letter-spacing: 1.8px;
+}
   .menubar {
     position: absolute;
     right: 0px;
@@ -90,9 +96,13 @@
     height: 150px;
   }
   .headimage {
-    background-image: url(../images/headerbanner34.png);
-    height: 150px;
-  }
+   height: 158px;
+
+}
+.navbar-default .navbar-collapse, .navbar-default .navbar-form {
+  border-color: #e7e7e7;
+  float: right;
+}
   .navbar .nav > li > a {
     color: #fff;
     text-shadow: none;
@@ -103,20 +113,21 @@
     display: flex;
     align-items: center;
     justify-content: center;
+    height: 230px;
+    
   }
   
     .hero:before {
       content: "";
-      background-image:  url("../images/cmp-info-bg-image.jpg");
-      background-size: cover;
+      background-image:  url("../images/cmp-info-bg-image.png");
+      background-size: contain;
       position: absolute;
       top: 0px;
       right: 0px;
       bottom: 0px;
       left: 0px;
-      opacity: 0.6;
     }
-  
+   
   
   h2 {
     position: relative;
@@ -125,12 +136,50 @@
     line-height: 0.9;
     text-align: center;
   }
+  .translogo
+  {
+    width: 160px;
+    position: absolute;
+    top: -22px;
+    right:0px;
+  }
+  .navbar-default .navbar-nav>li>a:hover, .navbar-default .navbar-nav>li>a:focus {
+    color: #18eccc;
+    background-color: transparent;
+}
   
   @media only screen and (max-width: 600px) {
+    
     .logo {
-      width: 130px;
+      width: 91px;
       position: absolute;
-      top: -38px;
+      top: -40px;
+      left: -5px;
+      height: 100px;
+  }
+    .content_white {
+        text-align: center;
+        position: relative;
+        top: 0px;
+    }
+    .translogo {
+      width: 100px;
+      position: absolute;
+      top: -16px;
+      right: 20px;
+  }
+    .hero {
+        position: relative;
+        width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        height: 350px;
+    }
+    .headbanner {
+        position: absolute;
+        top: 0px;
+        left: 33%;
     }
     .navbar-default .navbar-toggle:hover,
     .navbar-default .navbar-toggle:focus {
@@ -142,12 +191,22 @@
       position: relative;
       top: 70px;
     }
-    .navbar-default .navbar-toggle {
-      border-color: #000;
-      position: relative;
-      top: 120px;
-      left: 20px;
-    }
+    .headbanner {
+      position: absolute;
+      top: -16px;
+      left: 32%;
+      font-size: 15px;
+      color: #fff;
+      letter-spacing: 1.8px;
+      text-align: center;
+  }
+  .navbar-default .navbar-toggle {
+    border-color: #000;
+    position: relative;
+    top: 74px;
+    left: 220px;
+    z-index: 99999;
+}
     .navbar-nav {
       border-top: none;
       float: none;
@@ -181,5 +240,24 @@
       position: relative;
       left: -13%;
     }
+    header ul.nav li {
+      border: none;
+      margin: -3px -3px 0px 0px;
   }
+        header .navbar-collapse ul.navbar-nav {
+          float: right;
+          margin-right: 0px;
+          position: relative;
+          top: 134px;
+          left: -12px;
+          background-color: #fffffff2;
+          z-index: 9999;
+          height: 247px;
+          width: 360px;
+      }
+      .headimage {
+        height: 170px;
+    }
+        }
+
   
